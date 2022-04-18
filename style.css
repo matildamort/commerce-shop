@@ -49,3 +49,117 @@ p {
 body {
     width: 100%;
 }
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    position: sticky; 
+    top: 0;
+    left: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li {
+   list-style: none;
+   padding: 0 20px;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 600px;
+    color: darkgray;
+    transition: 0.3s ease;
+ 
+ }
+
+ #navbar li a:hover {
+    color: goldenrod
+ }
+
+ .logo {
+    max-width: 150px;
+
+ }
+
+ #hero {
+     background-image: url("img/wine-background-a-glass-of-red-wine-with-grapes-2021-08-30-04-52-55-utc.jpg");
+     height: 90vh;
+     width: 100%;
+     background-size: cover;
+     background-position: top 25% right 0;
+     padding: 0 80px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+
+ #hero h3 {
+    padding-bottom: 15px;
+    color:darkgoldenrod;
+
+ }
+
+ #hero h2 {
+    padding-bottom: 15px;
+    color:black;
+ }
+
+ #hero h1 {
+    padding-bottom: 15px;
+    color:black;
+ }
+
+
+#hero button {
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1.5rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#hero button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+#hero button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
