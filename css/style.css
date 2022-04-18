@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -95,7 +96,7 @@ body {
  }
 
  #hero {
-     background-image: url("img/wine-background-a-glass-of-red-wine-with-grapes-2021-08-30-04-52-55-utc.jpg");
+     background-image: url("/images/wine-background-a-glass-of-red-wine-with-grapes-2021-08-30-04-52-55-utc.jpg");
      height: 90vh;
      width: 100%;
      background-size: cover;
@@ -109,19 +110,24 @@ body {
 
 
  #hero h3 {
-    padding-bottom: 15px;
     color:darkgoldenrod;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
 
  }
 
  #hero h2 {
-    padding-bottom: 15px;
     color:black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
  }
 
  #hero h1 {
     padding-bottom: 15px;
+    font-size: 80px;
     color:black;
+    font-family: 'Square Peg', cursive;
  }
 
 
